@@ -68,7 +68,7 @@ Crear archivo .txt en la carpeta donde se inicio el repositorio
 
 - git show [archivo] : cambios a un archivo
 
-    ![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled.png)
+    ![Alt text](/Imagenes/Untitled.png)
 
     git hace un diff con la version a y b que tiene en la base de datos para poder mostrar las diferencias entre versiones
 
