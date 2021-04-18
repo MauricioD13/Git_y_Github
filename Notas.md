@@ -78,7 +78,7 @@ Crear archivo .txt en la carpeta donde se inicio el repositorio
 
 - git log [archivo] : muestra la historia de los commits
 
-    ![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%201.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%201.png)
+    ![Alt text](/Imagenes/Untitled 1.png)
 
 - git diff [commitA] [commitB]: Este comando compara las diferencias entre dos versiones en la base de datos
 
@@ -88,7 +88,7 @@ Crear archivo .txt en la carpeta donde se inicio el repositorio
 
     7c2a930491879210ac146a07af6b0e357a28d767 → primera version: commitB
 
-    ![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%202.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%202.png)
+    ![Alt text](/Imagenes/Untitled 2.png)
 
     Dependiendo del orden en que se pongan los codigos git interpretará cosas diferentes
 
@@ -128,28 +128,28 @@ registros de Git pero guardamos los cambios que tengamos en Staging, así podemo
 
 ### Flujo de trabajo normal:
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%203.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%203.png)
+![Alt text](/Imagenes/Untitled 3.png)
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%204.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%204.png)
+![Alt text](/Imagenes/Untitled 4.png)
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%205.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%205.png)
+![Alt text](/Imagenes/Untitled 5.png)
 
 ### Flujo de trabajo remoto:
 
 El equivalente de git init pero para un repositorio remoto
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%206.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%206.png)
+![Alt text](/Imagenes/Untitled 6.png)
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%207.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%207.png)
+![Alt text](/Imagenes/Untitled 7.png)
 
 - git push: Ultima version de los commits se envie al repositorio remoto
 - git fetch: Trae cambios hechos en el repositorio local al repositorio remoto
 - git merge: Funsiona la ultima version del repositorio local con la version del repositorio remoto
 - git pull: Fusiona el concepto de fetch y merge
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%208.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%208.png)
+![Alt text](/Imagenes/Untitled 8.png)
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%209.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%209.png)
+![Alt text](/Imagenes/Untitled 9.png)
 
 ## Introducción a las ramas o branches de Git
 
@@ -163,7 +163,7 @@ Rama principal → Master
 
 - Si se usa el comando git show cuando se esta en  la rama nueva entonces es posible ver donde se creo esta nueva rama, es decir , en donde fue el ultimo commit del master
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2010.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2010.png)
+![Alt text](/Imagenes/Untitled 10.png)
 
 ## Fusion de ramas con git merge:
 
