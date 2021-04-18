@@ -128,28 +128,28 @@ registros de Git pero guardamos los cambios que tengamos en Staging, así podemo
 
 ### Flujo de trabajo normal:
 
-![Alt text](/Imagenes/Untitled 3.png)
+![Alt text](/Imagenes/Untitled_3.png)
 
-![Alt text](/Imagenes/Untitled 4.png)
+![Alt text](/Imagenes/Untitled_4.png)
 
-![Alt text](/Imagenes/Untitled 5.png)
+![Alt text](/Imagenes/Untitled_5.png)
 
 ### Flujo de trabajo remoto:
 
 El equivalente de git init pero para un repositorio remoto
 
-![Alt text](/Imagenes/Untitled 6.png)
+![Alt text](/Imagenes/Untitled_6.png)
 
-![Alt text](/Imagenes/Untitled 7.png)
+![Alt text](/Imagenes/Untitled_7.png)
 
 - git push: Ultima version de los commits se envie al repositorio remoto
 - git fetch: Trae cambios hechos en el repositorio local al repositorio remoto
 - git merge: Funsiona la ultima version del repositorio local con la version del repositorio remoto
 - git pull: Fusiona el concepto de fetch y merge
 
-![Alt text](/Imagenes/Untitled 8.png)
+![Alt text](/Imagenes/Untitled_8.png)
 
-![Alt text](/Imagenes/Untitled 9.png)
+![Alt text](/Imagenes/Untitled_9.png)
 
 ## Introducción a las ramas o branches de Git
 
@@ -163,7 +163,7 @@ Rama principal → Master
 
 - Si se usa el comando git show cuando se esta en  la rama nueva entonces es posible ver donde se creo esta nueva rama, es decir , en donde fue el ultimo commit del master
 
-![Alt text](/Imagenes/Untitled 10.png)
+![Alt text](/Imagenes/Untitled_10.png)
 
 ## Fusion de ramas con git merge:
 
@@ -181,13 +181,13 @@ git merge <rama>:
 
 Cuando dos programadores hacen cambios en las mismas lineas de codigo entonces git manda alertas al momento de hacer un merge para decidir cual de las lineas de codigo seran las que se usarán
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2011.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2011.png)
+![Alt text](/Imagenes/Untitled_11.png)
 
 Si hay un conflicto git pone los signos <<<<< HEAD que es hacia donde se hizo el merge y luego los signos >>>> <rama> que es la rama con la que se hizo el merge. Si no se esta en un editor de codigo con las funciones de git entonces solo hay que quitar estos simbolos y dejar el codigo que sea conveniente.
 
 Por otro lado Visual Studio Code tiene la opcion de aceptar los cambios directamente en el editor dandole click a la opcion que sea mas conveniente
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2012.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2012.png)
+![Alt text](/Imagenes/Untitled%2012.png)
 
 ## Uso de GitHub
 
@@ -347,7 +347,7 @@ Pull requets: Estado intermedio entre antes de enviar el merge → Característi
 - merge request
 - push request
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2013.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2013.png)
+![Alt text](/Imagenes/Untitled_13.png)
 
 ## Utilizando Pull Requests en GitHub
 
@@ -415,7 +415,7 @@ GitHub nos dice cuantos commits hay de diferencia entre mi head master del head 
     - git pull upstream master
     - git push origin master
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2014.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2014.png)
+![Alt text](/Imagenes/Untitled_14.png)
 
 ## Haciendo deployment a un servidor
 
@@ -549,4 +549,4 @@ Graficas en github interesantes en → Insights del repos
 
 ## El futuro
 
-![Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2015.png](Git%20y%20GitHub%205d2bd59b77674c55addc93a109e0eff8/Untitled%2015.png)
+![Alt text](/Imagenes/Untitled_15.png)
